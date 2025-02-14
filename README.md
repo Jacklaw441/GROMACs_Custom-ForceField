@@ -10,9 +10,13 @@ I realize now that I need to make informal notes for the procedure until I know 
 
 From PDB (OPM, really): 
 -Note which HIS residues are close to CLAs, be certain to protonate accordingly.
+
 -Note CYS residues that bind SF4 clusters, new amino acid "ACYS" added to topology (protonation, bonds added "in post," charges and topology taken from literature and added).
+
 -SF4 topology taken from literature and added to topology. New "amino-acid" called SF4 added.
+
 -Cofactor topologies generated from CHARMMGUI, LibParGen, or any similar FF building tool (C, N, O, H cofactors. Nothing troublesome like with SF4); protonated in IQmol then added back to structure.
+
 -Protein+SF4 topology generated all together. Can cofactors be added to topology the same way? No need to do this, but I wonder if it could be simplified.
 
-
+-Manually add in "bridged" topology parameters. ACYS-SF4 bonds, angles, dihedrals must be added. Alternatively, define a "super-residue" that is 4 ACYS and SF4 all in one. BUT, this will then require adding in the protein backbone bonds for the ACYS alpha and carbonyl carbons. I like the current apporach.
