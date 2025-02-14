@@ -20,3 +20,5 @@ From PDB (OPM, really):
 -Protein+SF4 topology generated all together. Can cofactors be added to topology the same way? No need to do this, but I wonder if it could be simplified.
 
 -Manually add in "bridged" topology parameters. ACYS-SF4 bonds, angles, dihedrals must be added. Alternatively, define a "super-residue" that is 4 ACYS and SF4 all in one. BUT, this will then require adding in the protein backbone bonds for the ACYS alpha and carbonyl carbons. I like the current apporach.
+
+-573PRO and 574ACYS creates a chain break... I have no idea why? 573PRO must be editted to be regular, and bonds, angles, dihedrals between the two should be defined manually.
