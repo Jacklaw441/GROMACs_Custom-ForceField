@@ -11,7 +11,7 @@ I realize now that I need to make informal notes for the procedure until I know 
 From PDB (OPM, really): 
 -Note which HIS residues are close to CLAs, be certain to protonate accordingly.
 
--Note CYS residues that bind SF4 clusters, new amino acid "ACYS" added to topology (protonation, bonds added "in post," charges and topology taken from literature and added).
+-Note CYS residues that bind SF4 clusters, new amino acid "ACYS" added to topology (protonation, bonds added "in post," charges and topology taken from literature and added to database of known AAs).
 
 -SF4 topology taken from literature and added to topology. New "amino-acid" called SF4 added.
 
