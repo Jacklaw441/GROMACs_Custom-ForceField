@@ -22,3 +22,4 @@ From PDB (OPM, really):
 -Manually add in "bridged" topology parameters. ACYS-SF4 bonds, angles, dihedrals must be added. Alternatively, define a "super-residue" that is 4 ACYS and SF4 all in one. BUT, this will then require adding in the protein backbone bonds for the ACYS alpha and carbonyl carbons. I like the current apporach.
 
 -573PRO and 574ACYS creates a chain break... I have no idea why? 573PRO must be editted to be regular, and bonds, angles, dihedrals between the two should be defined manually.
+    - Huzzah. The first ACYS will always cause a chain break. The workaround is to label all ACYS as CYS2, a disulfide CYS instead. The proper protonation and chains are made by GROMACS, however, you will need to edit the charges and atomtypes of these residues manually. Bridge bonds will still be added manually, but that is not different anyway.
